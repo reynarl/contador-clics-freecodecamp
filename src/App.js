@@ -1,7 +1,7 @@
 import './App.css';
-import './css/Boton.css'
 import logoFreecodecamp from './img/logo-freecodecamp.png';
 import Boton from './components/Boton';
+import Contador from './components/Contador';
 
 function App() {
   //definir las funciones del componente boton
@@ -22,6 +22,7 @@ function App() {
           alt='Logo de freecodecamp' />
       </div>
       <div className='contenedor-principal'>
+        <Contador numClics='5' />
         <Boton texto='Clic' esBotonDeClic={true} manejarClic={manejarClic} />
         <Boton texto='Reiniciar' esBotonDeClic={false} manejarClic={reiniciarContador} />
       </div>
