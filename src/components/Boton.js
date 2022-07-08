@@ -1,4 +1,3 @@
-import React from 'react'
 import '../css/Boton.css'
 
 const Boton = ({ texto, esBotonDeClic, manejarClic }) => {
